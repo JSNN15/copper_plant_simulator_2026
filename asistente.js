@@ -41,7 +41,7 @@
   <button id="ast-btn" aria-controls="ast" aria-expanded="false"><i></i>✦ Asistente IA · NVIDIA</button>
   <section id="ast" aria-label="Pregúntale a la planta">
     <header><b>✦ Asistente de turno · IA</b><small>NVIDIA Nemotron 3.5 Super</small><button id="ast-x" aria-label="Cerrar">✕</button></header>
-    <div class="msgs" id="ast-msgs"><div class="m a">Soy la capa de IA del asistente de turno. Recibo lo mismo que ves: alarmas, los avisos del asistente, tags, lazos, motores, KPI y bitácora. Pregúntame qué está pasando o qué hacer. Provoca una falla en <b>Escenarios</b> y pregúntame por ella.</div></div>
+    <div class="msgs" id="ast-msgs"><div class="m a">Soy la capa de IA del asistente de turno. Recibo lo mismo que ves: alarmas, los avisos del asistente, tags, lazos, motores, KPI y bitácora. Pregúntame qué está pasando o qué hacer. Provoca una falla en <b>Escenarios</b> y pregúntame por ella. Soy una demo: uso una API gratuita compartida, así que a veces tardo o no tengo cupo.</div></div>
     <div class="chips" id="ast-chips">
       <button>¿Cómo está la planta?</button><button>¿Por qué hay alarmas?</button><button>¿Qué equipo está más cerca de fallar?</button><button>¿Cuánto cobre llevamos en el turno?</button><button>Resumen para el cambio de turno</button>
     </div>
