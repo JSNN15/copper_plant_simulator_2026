@@ -59,6 +59,10 @@ sequenceDiagram
 
 El modelo recibe criterios de operación explícitos (zona C de vibración = programar la intervención, zona D = detener en forma controlada; los cortocircuitos en EW se corrigen en operación) y solo los datos del momento. Si algo no está en los datos, lo dice.
 
+## Los datos de la planta, analizados
+
+El [Cuaderno de planta](https://jsnn15.github.io/cuaderno/) corre este mismo motor una semana con fallas programadas, exporta historiador, alarmas, bitácora, vibraciones y laboratorio, y los analiza en un notebook de Python: calidad de datos, alarmas según ISA-18.2 y aviso anticipado por vibración. De ahí salió una mejora pendiente para este simulador: las alarmas de vibración de M-103 repican al cruzar el límite y necesitan retardo o banda muerta.
+
 ## Qué es y qué no es
 
 Es un **modelo digital** (Kritzinger y otros, 2018): no intercambia datos con una planta real. Los parámetros vienen de literatura (ENAMI, Sole y otros, ley de Faraday, LME) y los balances de cobre, ácido y agua cierran, pero los valores no representan a ninguna operación. La revisión de ingeniería y metalurgia está en [`REVISION.md`](REVISION.md).
